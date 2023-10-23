@@ -1,1 +1,1 @@
-"ServerCommandPassword"
+"00010"
