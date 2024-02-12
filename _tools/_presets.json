@@ -265,7 +265,7 @@
     },
     {
         "sourceFolder": "kp_liberation.Deniland",
-        "missionName": "kp_liberation_deniland",
+        "missionName": "kp_liberation",
         "map": "Dediland",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
@@ -279,7 +279,7 @@
     },
      {
         "sourceFolder": "kp_liberation.WL_Rosche",
-        "missionName": "kp_liberation_WL_Rosche",
+        "missionName": "kp_liberation",
         "map": "WL_Rosche",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
@@ -293,7 +293,7 @@
     },
      {
         "sourceFolder": "kp_liberation.cwr3_malden_islands",
-        "missionName": "kp_liberation_cwr3_malden_islands",
+        "missionName": "kp_liberation",
         "map": "CWR3 Malden Islands",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
@@ -307,7 +307,7 @@
     },
      {
         "sourceFolder": "kp_liberation.isladuala3",
-        "missionName": "kp_liberation_isladuala3",
+        "missionName": "kp_liberation",
         "map": "isladuala3",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
@@ -321,7 +321,7 @@
     },
      {
         "sourceFolder": "kp_liberation.lingor3",
-        "missionName": "kp_liberation_lingor3",
+        "missionName": "kp_liberation",
         "map": "Lingor",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
@@ -335,7 +335,7 @@
     },
      {
         "sourceFolder": "kp_liberation.ruha",
-        "missionName": "kp_liberation_ruha",
+        "missionName": "kp_liberation",
         "map": "Ruha",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
@@ -349,7 +349,7 @@
     },
      {
         "sourceFolder": "kp_liberation.stozec",
-        "missionName": "kp_liberation_stozec",
+        "missionName": "kp_liberation",
         "map": "Stozec",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
@@ -363,7 +363,7 @@
     },
      {
         "sourceFolder": "kp_liberation.vn_khe_sanh",
-        "missionName": "kp_liberation_vn_khe_sanh",
+        "missionName": "kp_liberation",
         "map": "Khe Sanh",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
@@ -377,7 +377,7 @@
     },
     {
         "sourceFolder": "kp_liberation.vt7",
-        "missionName": "kp_liberation_vt7",
+        "missionName": "kp_liberation",
         "map": "VT7",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
@@ -391,7 +391,7 @@
     },
     {
         "sourceFolder": "kp_liberation.Australia",
-        "missionName": "kp_liberation_Australia",
+        "missionName": "kp_liberation",
         "map": "Australia",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
