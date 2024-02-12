@@ -120,12 +120,46 @@ You can play every map without any mods (only the maps themself) if you set the 
     * [Australia](https://steamcommunity.com/workshop/filedetails/?id=485417177)
     * [CBA A3](http://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
     * [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
+* Deniland
+    * [Deniland](https://steamcommunity.com/workshop/filedetails/?id=1231955722)
+    * [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
+    * [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
+    * [CUP Terrains - Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
+    * [CUP Weapons](https://steamcommunity.com/workshop/filedetails/?id=497660133)
+    * [CUP Units](https://steamcommunity.com/workshop/filedetails/?id=497661914)
+    * [CUP Vehicles](https://steamcommunity.com/workshop/filedetails/?id=541888371)
+* Rosche
+    * [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
+    * [Rosche, Germany](https://steamcommunity.com/workshop/filedetails/?id=1527410521)
+    * [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117)
+    * [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103)
+    * [RHSGREF](https://steamcommunity.com/workshop/filedetails/?id=843593391)
+    * [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
+* Ruha
+    * [Ruha](https://steamcommunity.com/workshop/filedetails/?id=1368857262)
+    * [CUP Terrains - Core](https://steamcommunity.com/workshop/filedetails/?id=583496184)
+    * [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
+* Isla Duala
+    * [CUP Terrains - Core](https://steamcommunity.com/workshop/filedetails/?id=583496184)
+    * [Isla Duala](https://steamcommunity.com/workshop/filedetails/?id=714149065)
+    * [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
+* Khe Sanh
+    * [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
+* Malden Islands
+    * [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
+    * [Cold War Rearmed III](https://steamcommunity.com/workshop/filedetails/?id=2316343124)
+    * [Cold war Rearmed III - Malden Islands](https://steamcommunity.com/workshop/filedetails/?id=2619482217)
+    * [CUP Terrains - Core](https://steamcommunity.com/workshop/filedetails/?id=583496184)
+    * [CUP Terrains - Maps](https://steamcommunity.com/workshop/filedetails/?id=583544987)
+    * [CUP Terrains - CWA](https://steamcommunity.com/workshop/filedetails/?id=853743366)
+    * [CUP Units](https://steamcommunity.com/workshop/filedetails/?id=497661914)
+    * [CUP Vehicles](https://steamcommunity.com/workshop/filedetails/?id=541888371)
+    * [CUP Weapons](https://steamcommunity.com/workshop/filedetails/?id=497660133)
+
     
 ## Recommended Mods
 These mods are recommended by us, as they are likely to increase your gaming experience:
 * [ACE](https://steamcommunity.com/sharedfiles/filedetails/?id=463939057)
-* [ACE Compat - RHS Armed Forces of the Russian Federation](https://steamcommunity.com/workshop/filedetails/?id=773131200)
-* [ACE Compat - RHS United States Armed Forces](https://steamcommunity.com/workshop/filedetails/?id=773125288)
 * [ACE3 - BWMOD Compatibility](https://steamcommunity.com/sharedfiles/filedetails/?id=1200145989)
 * [ACRE 2](https://steamcommunity.com/sharedfiles/filedetails/?id=751965892)
 * [Advanced Urban Rappeling](https://steamcommunity.com/sharedfiles/filedetails/?id=730310357)
