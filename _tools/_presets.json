@@ -264,6 +264,118 @@
         "workshopId": ""
     },
     {
+        "sourceFolder": "kp_liberation.Deniland",
+        "missionName": "kp_liberation_deniland",
+        "map": "Dediland",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 0,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 0,
+            "KP_liberation_preset_civilians": 0,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+     {
+        "sourceFolder": "kp_liberation.WL_Rosche",
+        "missionName": "kp_liberation_WL_Rosche",
+        "map": "WL_Rosche",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 0,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 0,
+            "KP_liberation_preset_civilians": 0,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+     {
+        "sourceFolder": "kp_liberation.cwr3_malden_islands",
+        "missionName": "kp_liberation_cwr3_malden_islands",
+        "map": "CWR3 Malden Islands",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 0,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 0,
+            "KP_liberation_preset_civilians": 0,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+     {
+        "sourceFolder": "kp_liberation.isladuala3",
+        "missionName": "kp_liberation_isladuala3",
+        "map": "isladuala3",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 0,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 0,
+            "KP_liberation_preset_civilians": 0,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+     {
+        "sourceFolder": "kp_liberation.lingor3",
+        "missionName": "kp_liberation_lingor3",
+        "map": "Lingor",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 0,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 0,
+            "KP_liberation_preset_civilians": 0,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+     {
+        "sourceFolder": "kp_liberation.ruha",
+        "missionName": "kp_liberation_ruha",
+        "map": "Ruha",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 0,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 0,
+            "KP_liberation_preset_civilians": 0,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+     {
+        "sourceFolder": "kp_liberation.stozec",
+        "missionName": "kp_liberation_stozec",
+        "map": "Stozec",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 0,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 0,
+            "KP_liberation_preset_civilians": 0,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+     {
+        "sourceFolder": "kp_liberation.vn_khe_sanh",
+        "missionName": "kp_liberation_vn_khe_sanh",
+        "map": "Khe Sanh",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 0,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 0,
+            "KP_liberation_preset_civilians": 0,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+    {
         "sourceFolder": "kp_liberation.cup_chernarus_A3",
         "missionName": "kp_liberation",
         "map": "Chernarus_2020",
