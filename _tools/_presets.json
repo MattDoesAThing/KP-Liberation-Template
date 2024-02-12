@@ -390,6 +390,20 @@
         "workshopId": ""
     },
     {
+        "sourceFolder": "kp_liberation.Australia",
+        "missionName": "kp_liberation_Australia",
+        "map": "Australia",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 0,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 0,
+            "KP_liberation_preset_civilians": 0,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+    {
         "sourceFolder": "kp_liberation.cup_chernarus_A3",
         "missionName": "kp_liberation",
         "map": "Chernarus_2020",
