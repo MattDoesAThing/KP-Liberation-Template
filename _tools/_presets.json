@@ -322,7 +322,7 @@
      {
         "sourceFolder": "kp_liberation.lingor3",
         "missionName": "kp_liberation",
-        "map": "Lingor",
+        "map": "Lingor3",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
             "KP_liberation_preset_blufor": 0,
