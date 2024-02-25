@@ -266,7 +266,7 @@
     {
         "sourceFolder": "kp_liberation.Deniland",
         "missionName": "kp_liberation",
-        "map": "Dediland",
+        "map": "Deniland",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
             "KP_liberation_preset_blufor": 0,
