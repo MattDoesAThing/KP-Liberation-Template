@@ -132,7 +132,11 @@ KP_liberation_preset_blufor = 0;
 17 = CUP Armed Forces of the Russian Federation (Modern MSV)
 18 = CUP Chernarus Defense Force
 19 = CUP British Armed Forces (Desert)
-20 = CUP British Armed Forces (Woodland) */
+20 = CUP British Armed Forces (Woodland)
+21 = RHS USA Desert
+22 = RHS USA Desert 
+23 = BW Mod 
+24 = BW Mod and GM */
 KP_liberation_preset_opfor = 0;
 
 /* Resistance preset:
