@@ -149,6 +149,7 @@ KP_liberation_preset_opfor = 0;
 6  = Unsung
 7  = CUP Takistani Locals
 8  = CUP National Party of Chernarus */
+9  = RHS_Talib
 KP_liberation_preset_resistance = 0;
 
 /* Civilians preset:
