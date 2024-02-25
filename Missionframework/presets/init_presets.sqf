@@ -79,6 +79,7 @@ switch (KP_liberation_preset_resistance) do {
     case  6: {[] call compileFinal preprocessFileLineNumbers "presets\resistance\unsung.sqf";};
     case  7: {[] call compileFinal preprocessFileLineNumbers "presets\resistance\CUP_TakiLocals.sqf";};
     case  8: {[] call compileFinal preprocessFileLineNumbers "presets\resistance\CUP_NAPA.sqf";};
+    case  9: {[] call compileFinal preprocessFileLineNumbers "presets\resistance\rhs_talibfo.sqf";};
     default  {[] call compileFinal preprocessFileLineNumbers "presets\resistance\custom.sqf";};
 };
 
