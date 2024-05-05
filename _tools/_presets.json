@@ -418,9 +418,9 @@
         "workshopId": ""
     },
     {
-        "sourceFolder": "    kp_liberation.yulakia",
+        "sourceFolder": "kp_liberation.yulakia",
         "missionName": "kp_liberation",
-        "map": "Yulakia",
+        "map": "yulakia",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
             "KP_liberation_preset_blufor": 6,
