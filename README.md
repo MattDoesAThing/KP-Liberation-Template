@@ -1,3 +1,4 @@
+# All the KP goodness plus whatever I can borrow from others and my own tweaks to make the experience that much more betterer. For the mission files I do find that are not mine I try to document who they came from since it's only fair to give them credit for their hard work. I have made many small tweaks over the years to these files and I was terrible at change management and documenting what and why I changed things. If you find something wrong or a way to amke it better open a pull request. 
 ![KP Liberation](https://www.killahpotatoes.de/images/arma/liberation.png)
 
 # KP Liberation for Arma 3
