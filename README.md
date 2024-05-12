@@ -56,6 +56,8 @@ You can play every map without any mods (only the maps themself) if you set the 
 * You will need to have RHS US Forces as I set Potatoe1 to be a CH-47 instead of the Huron
     * [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
 
+## Available maps
+
 * Al Rayak (pja310)
     * [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
     * [G.O.S Al Rayak](http://steamcommunity.com/sharedfiles/filedetails/?id=648172507)
