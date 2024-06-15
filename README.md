@@ -201,39 +201,49 @@ difficulty="Custom";
 class DifficultyPresets
 {
     class CustomDifficulty
-    {
-        class Options
-        {
-            groupIndicators=0;
-            friendlyTags=0;
-            enemyTags=0;
-            detectedMines=0;
-            commands=0;
-            waypoints=0;
-            weaponInfo=1;
-            stanceIndicator=1;
-            reducedDamage=0;
-            staminaBar=0;
-            weaponCrosshair=0;
-            visionAid=0;
-            thirdPersonView=0;
-            cameraShake=1;
-            scoreTable=0;
-            deathMessages=0;
-            vonID=1;
-            mapContent=0;
-            autoReport=0;
-            multipleSaves=0;
-            squadRadar=0;
-            tacticalPing=0;
-        };
-        aiLevelPreset=3;
-    };
-    class CustomAILevel
-    {
-        skillAI=1.0;
-        precisionAI=0.15;
-    };
+	{
+		class Options
+		{
+			/* Simulation */
+			reducedDamage = 0;		// Reduced damage
+			/* Situational awareness */
+			groupIndicators = 2;	// Group indicators (0 = never, 1 = limited distance, 2 = always)
+			friendlyTags = 0;		// Friendly name tags (0 = never, 1 = limited distance, 2 = always)
+			enemyTags = 0;			// Enemy name tags (0 = never, 1 = limited distance, 2 = always)
+			detectedMines = 1;		// Detected mines (0 = never, 1 = limited distance, 2 = always)
+			commands = 1;			// Commands (0 = never, 1 = fade out, 2 = always)
+			waypoints = 1;			// Waypoints (0 = never, 1 = fade out, 2 = always)
+			tacticalPing = 1;		// Tactical ping (0 = disable, 1 = enable)
+			/* Personal awareness */
+			weaponInfo = 2;			// Weapon info (0 = never, 1 = fade out, 2 = always)
+			stanceIndicator = 2;	// Stance indicator (0 = never, 1 = fade out, 2 = always)
+			staminaBar = 1;			// Stamina bar
+			weaponCrosshair = 0;	// Weapon crosshair
+			visionAid = 0;			// Vision aid
+			/* View */
+			thirdPersonView = 1;	// 3rd person view
+			cameraShake = 1;		// Camera shake
+			/* Multiplayer */
+			scoreTable = 1;			// Score table
+			deathMessages = 0;		// Killed by
+			vonID = 1;				// VoN ID
+			/* Misc */
+			mapContentFriendly = 1;	// Map friendlies		(0 = disabled, 1 = enabled) // since  Arma 3 v1.68
+			mapContentEnemy = 1;    // Map Enemies			(0 = disabled, 1 = enabled) // since  Arma 3 v1.68
+			mapContentMines = 1;    // Map Mines 			(0 = disabled, 1 = enabled) // since  Arma 3 v1.68
+			autoReport = 0;			// (former autoSpot) Automatic reporting of spotted enemied by players only. This doesn't have any effect on AIs.
+			multipleSaves = 0;		// Multiple saves
+		};
+		
+		// aiLevelPreset defines AI skill level and is counted from 0 and can have following values: 0 (Low), 1 (Normal), 2 (High), 3 (Custom).
+		// when 3 (Custom) is chosen, values of skill and precision are taken from the class CustomAILevel.
+		aiLevelPreset = 3;
+	};
+	class CustomAILevel
+	{
+		skillAI = 0.2;
+		precisionAI = 0.2;
+	};
 };
 ```
 
