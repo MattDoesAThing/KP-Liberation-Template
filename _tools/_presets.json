@@ -418,7 +418,7 @@
         "workshopId": ""
     },
     {
-        "sourceFolder": "kp_liberation.Saint_Kapaulio",
+        "sourceFolder": "kp_liberation.Kapaulio",
         "missionName": "kp_liberation",
         "map": "Saint Kapaulio",
         "configFile": "kp_liberation_config.sqf",
