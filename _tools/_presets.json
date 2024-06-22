@@ -420,7 +420,7 @@
     {
         "sourceFolder": "kp_liberation.Kapaulio",
         "missionName": "kp_liberation",
-        "map": "Saint Kapaulio",
+        "map": "Kapaulio",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
             "KP_liberation_preset_blufor": 6,
