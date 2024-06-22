@@ -171,6 +171,8 @@ You can play every map without any mods (only the maps themself) if you set the 
 * Yulakia
     * [Yulakia](https://steamcommunity.com/sharedfiles/filedetails/?id=2950257727)
     * [CUP Terrains - Core](https://steamcommunity.com/workshop/filedetails/?id=583496184)
+* Saint Kapaulio
+    * [Saint Kapaulio](https://steamcommunity.com/sharedfiles/filedetails/?id=939686262)
     
 ## Recommended Mods
 These mods are recommended by us, as they are likely to increase your gaming experience:
