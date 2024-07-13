@@ -1,6 +1,6 @@
 /*
     Needed Mods:
-    - None
+    - DADPAT
 
     Optional Mods:
     - None
@@ -62,48 +62,33 @@ KP_liberation_guerilla_weapons_3 = [
 
 // Uniforms
 KP_liberation_guerilla_uniforms_1 = [
-    "U_C_Poloshirt_blue",
-    "U_C_Poloshirt_burgundy",
-    "U_C_Poloshirt_salmon",
-    "U_C_Poloshirt_redwhite",
-    "U_C_Poloshirt_stripped",
-    "U_C_Poloshirt_tricolour",
-    "U_C_Poor_1",
-    "U_C_Man_casual_1_F",
-    "U_C_Man_casual_2_F",
-    "U_C_Man_casual_3_F",
-    "U_C_Man_casual_4_F",
-    "U_C_Man_casual_5_F",
-    "U_C_Man_casual_6_F",
-    "U_Marshal"
+    "tg_u_dadpat_tactical_blue_hi",
+    "tg_u_dadpat_tactical_red_hi",
+    "tg_u_dadpat_shorts_blue_hi",
+    "tg_u_dadpat_shorts_red_hi",
+    "tg_u_dadpat_tacky",
+    "tg_u_dadpat_grn_plaid",
+    "tg_u_dadpat_shorts_grn_palm"
 ];
 
 KP_liberation_guerilla_uniforms_2 = [
-    "U_I_C_Soldier_Bandit_1_F",
-    "U_I_C_Soldier_Bandit_2_F",
-    "U_I_C_Soldier_Bandit_3_F",
-    "U_I_C_Soldier_Bandit_4_F",
-    "U_I_C_Soldier_Bandit_5_F",
-    "U_BG_Guerilla2_1",
-    "U_BG_Guerilla2_2",
-    "U_BG_Guerilla2_3",
-    "U_BG_Guerilla3_1",
-    "U_C_HunterBody_grn",
-    "U_C_Mechanic_01_F",
-    "U_I_C_Soldier_Para_5_F",
-    "U_I_G_resistanceLeader_F"
+     "tg_u_dadpat_tactical_blue_hi",
+    "tg_u_dadpat_tactical_red_hi",
+    "tg_u_dadpat_shorts_blue_hi",
+    "tg_u_dadpat_shorts_red_hi",
+    "tg_u_dadpat_tacky",
+    "tg_u_dadpat_grn_plaid",
+    "tg_u_dadpat_shorts_grn_palm"
 ];
 
 KP_liberation_guerilla_uniforms_3 = [
-    "U_BG_Guerilla1_1",
-    "U_BG_Guerilla1_2_F",
-    "U_BG_Guerrilla_6_1",
-    "U_BG_leader",
-    "U_I_C_Soldier_Para_1_F",
-    "U_I_C_Soldier_Para_2_F",
-    "U_I_C_Soldier_Para_3_F",
-    "U_I_C_Soldier_Para_4_F",
-    "U_I_C_Soldier_Camo_F"
+     "tg_u_dadpat_tactical_blue_hi",
+    "tg_u_dadpat_tactical_red_hi",
+    "tg_u_dadpat_shorts_blue_hi",
+    "tg_u_dadpat_shorts_red_hi",
+    "tg_u_dadpat_tacky",
+    "tg_u_dadpat_grn_plaid",
+    "tg_u_dadpat_shorts_grn_palm"
 ];
 
 // Vests
