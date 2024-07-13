@@ -2,6 +2,7 @@
     Needed Mods:
     - BWMod
     - RHS USAF
+	- Pooks Artillery
 
     Optional Mods:
     - F-15C
@@ -19,10 +20,10 @@ FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This 
 FOB_truck_typename = "rhsusf_M1078A1P2_B_WD_CP_fmtv_usarmy";            // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = "rhsusf_M1085A1P2_B_WD_Medical_fmtv_usarmy";   // This is the mobile respawn (and medical) truck.
-huron_typename = "RHS_CH_47F";                                          // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+huron_typename = "rhsusf_CH53E_USMC_D";                                          // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "BWA3_Crew_Fleck";                                  // This defines the crew for vehicles.
 pilot_classname = "BWA3_Helipilot";                                     // This defines the pilot for helicopters.
-KP_liberation_little_bird_classname = "RHS_MELB_MH6M";                  // These are the little birds which spawn on the Freedom or at Chimera base.
+KP_liberation_little_bird_classname = "vtx_MH60M";                  // These are the little birds which spawn on the Freedom or at Chimera base.
 KP_liberation_boat_classname = "B_Boat_Transport_01_F";                 // These are the boats which spawn at the stern of the Freedom.
 KP_liberation_truck_classname = "rhsusf_M977A4_BKIT_usarmy_wd";         // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";     // A small storage area for resources.
@@ -73,11 +74,14 @@ infantry_units = [
 
 light_vehicles = [
     ["B_Quadbike_01_F",50,0,25],                                        // Quad Bike
-    ["rhsusf_m1025_w",100,0,50],                                        // M1025A2
-    ["rhsusf_m1025_w_m2",100,40,50],                                    // M1025A2 (M2)
-    ["rhsusf_m1025_w_mk19",100,60,50],                                  // M1025A2 (Mk19)
-    ["rhsusf_m998_w_2dr_fulltop",100,0,50],                             // M1097A2 (2D)
-    ["rhsusf_m998_w_2dr_halftop",100,0,50],                             // M1097A2 (2D / open back)
+    ["rhsusf_m1045_w",100,0,50],                                        // M1045 TOW
+    ["rhausf_m1151_mk19crows_usarmy_wd",100,40,50],                     // M1151 MK19
+    ["rhsusf_m1237_M2_usarmy_wd",100,60,50],                         	// M1237 Party Bus
+	["rhsusf_m1240a1_m2_uik_usarmy_wd",100,60,50],                      // MRAP 
+	["rhsusf_m1165a1_gmv_m2_m240_socom_d",100,60,50],                   // spec ops hmmwv m2 m240
+	["rhsusf_m1165a1_gmv_m134d_m240_socom_d",100,60,50],                // spec ops hmmwv m134
+    ["BWA3_Dingo2_FLW200_GMW_CG13_Fleck",100,0,50],                     // Dingo
+    ["BWA3_Dingo2_FLW200_M2_CG13_Fleck",100,0,50],                      // Dingo
     ["BWA3_Eagle_Fleck",100,0,50],                                      // Eagle IV
     ["BWA3_Eagle_FLW100_Fleck",100,100,50],                             // Eagle IV (FLW 100)
     ["rhsusf_M1220_usarmy_wd",120,0,60],                                // M1220
@@ -86,12 +90,18 @@ light_vehicles = [
     ["rhsusf_M1232_usarmy_wd",140,0,60],                                // M1232
     ["rhsusf_M1232_M2_usarmy_wd",140,40,60],                            // M1232 (M2)
     ["rhsusf_M1232_MK19_usarmy_wd",140,60,60],                          // M1232 (Mk19)
+	["rhsusf_stryker_m1132_m2_d",250,100,25],							// M1132
+	["rhsusf_stryker_m1134_d",250,100,25],								// M1132
+	["rhsusf_stryker_m1127_m2_d",250,100,25],							// M1132
     ["rhsusf_M1230a1_usarmy_wd",120,0,60],                              // M1230A1 (MEDEVAC)
     ["rhsusf_M1083A1P2_wd_open_fmtv_usarmy",125,0,75],                  // M1083A1P2 Transport
     ["rhsusf_M1083A1P2_wd_fmtv_usarmy",125,0,75],                       // M1083A1P2 Transport (Covered)
     ["rhsusf_M1083A1P2_WD_flatbed_fmtv_usarmy",100,0,50],               // M1083A1P2
     ["rhsusf_M977A4_BKIT_usarmy_wd",125,0,75],                          // M977A4 BKIT
-    ["rhsusf_M977A4_BKIT_M2_usarmy_wd",125,40,75],                      // M977A4 BKIT (HMG)
+    ["BWA3_Multi_Fleck",125,40,75],                      				// M977A4 BKIT (HMG)
+	["BWA3_WLP14_Ammo_Fleck",20,20,0],                      	        // Multi Fleck Ammo
+	["BWA3_WLP14_Repair_Fleck",20,20,0],                      	        // Multi Fleck Repair
+	["BWA3_WLP14_Flatbed_Oliv",20,20,0],                      	        // Multi Fleck Flatbed
     ["B_UGV_01_F",150,0,50],                                            // UGV Stomper
     ["B_UGV_01_rcws_F",150,40,50],                                      // UGV Stomper (RCWS)
     ["B_Boat_Transport_01_F",100,0,25],                                 // Assault Boat
@@ -110,7 +120,12 @@ heavy_vehicles = [
     ["RHS_M6_wd",300,250,175],                                          // M6A2
     ["rhsusf_m1a1aim_tuski_wd",400,350,225],                            // M1A1SA (Tusk I)
     ["rhsusf_m1a2sep1tuskiiwd_usarmy",500,400,250],                     // M1A2SEPv1 (Tusk II)
+	["rhsusf_m1a2sep2wd_usarmy",500,400,250],                     		// M1A2SEPv2 (Tusk II)
     ["BWA3_Leopard2_Fleck",500,400,250],                                // MBT Leopard 2A6M
+	["pook_CAESAR_BLUFOR",600,1250,300],                                // Caesar Artillery
+	["rhsusf_M142_usarmy_WD",600,1250,300],                             // HIMARS
+	["HMCS_VW1URB",2000,2000,600],                             			// Mech
+	["JGPT",1750,1750,500],                             				// Mech anti-infantry
     ["rhsusf_m109_usarmy",600,1250,300]                                 // M109A6
 ];
 
@@ -123,6 +138,13 @@ air_vehicles = [
     ["RHS_UH1Y_GS",225,200,125],                                        // UH-1Y (Ground Suppression)
     ["RHS_AH1Z",500,500,200],                                           // AH-1Z (Multi-Role)
     ["RHS_AH64D_wd",750,750,250],                                       // AH-64D (Multi-Role)
+	["vtx_MH60M_DAP_MLASS",500,500,150],                                // MH-60 DAP
+	["BWA3_NH90_TTH_M3M_Fleck",250,50,150],                             // NH90 german cargo heli
+	["Valor_Transport_Armed_HMG_F",250,80,150],                         // VTOL future blackhawk thing no wpns
+	["Valor_Turret_Transport_CrewGun_F",600,600,150],                   // VTOL future blackhawk thing armed
+	["BWA3_Tiger_RMK",400,400,150],                                     // German Tiger helicopter
+	["RHS_Mi8MTV3_heavy_vdv",500,500,150],                              // AH-64D (Multi-Role)
+	["RHS_Ka52_vvsc",750,750,250],                                      // AH-64D (Multi-Role)
     ["BWA3_Tiger_RMK_Universal",750,750,250],                           // UH Tiger RMK (Universal)
     ["RHS_UH60M2",250,0,150],                                           // UH-60M (Unarmed)
     ["RHS_UH60M",250,80,150],                                           // UH-60M
@@ -133,8 +155,18 @@ air_vehicles = [
     ["B_UAV_02_dynamicLoadout_F",400,300,200],                          // MQ-4A Greyhawk
     ["B_T_UAV_03_dynamicLoadout_F",450,500,250],                        // MQ-12 Falcon
     ["B_UAV_05_F",500,500,200],                                         // UCAV Sentinel
-    ["RHS_A10",1000,1000,400],                                          // A-10A (CAS)
+    ["USAF_A10",1000,1000,400],                                         // A-10A (CAS)
     ["FIR_F15C",1250,1250,450],                                         // F-15C Eagle
+	["FIR_F14D_VF31CAG",1000,1000,450],                                 // F-14
+	["FIR_F15EX_ET",1700,1700,450],                                     // F-15EX Eagle
+	["FIR_F16C_WAHGV",1150,1150,450],                                   // F-16
+	["FIR_FA18_VFA103CAG",1700,1700,450],                               // F-18 super hornet
+	["FIR_AV8B_NA_VMA211",1150,1150,450],                               // AV-8B Harrier
+	["Tornado_AWS_blu",1500,1500,450],                                  // Tornado
+	["USAF_C130J_Cargo",250,250,150],                                   // C-130J
+	["USAF_MQ9",300,200,100],                                           // MQ-9
+	["USAF_F35A",1500,1500,450],                                        // F-35A
+	["USAF_C17",500,500,300],                                           // C-17
     ["FIR_F15D",1250,1250,450],                                         // F-15D Eagle
     ["FIR_F15E",1250,1500,450],                                         // F-15E Strike Eagle
     ["JS_JC_FA18E",1500,1750,450],                                      // F/A-18 E Super Hornet
@@ -153,7 +185,8 @@ static_vehicles = [
     ["RHS_TOW_TriPod_WD",50,100,0],                                     // TOW (AT)
     ["RHS_Stinger_AA_pod_WD",50,100,0],                                 // Stinger (AA)
     ["RHS_M252_WD",80,150,0],                                           // Mk6 Mortar
-    ["RHS_M119_WD",100,200,0],                                          // M119A2
+    ["pook_M777_DES",100,200,0],                                        // M777
+	["DRA_CRAM_01",100,200,0],                                          // M777
     ["B_SAM_System_03_F",250,500,0]                                     // MIM-145 Defender
 ];
 
