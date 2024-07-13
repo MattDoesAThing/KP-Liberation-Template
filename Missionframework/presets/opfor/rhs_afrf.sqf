@@ -55,19 +55,22 @@ militia_squad = [
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders.
 militia_vehicles = [
-    "rhs_tigr_sts_msv"                                                  // GAZ-233014 (Armed)
+    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+	"rhs_typhoon_vdv",                                                 // GAZ-233014 (Armed)
+	"rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
+	"rhs_sprut_vdv"                                                  // 2S25 SPRUT
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
 opfor_vehicles = [
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
     "rhs_bmd4ma_vdv",                                                   // BMD-4MA
     "rhs_bmp2k_msv",                                                    // BMP-2K
     "rhs_bmp3m_msv",                                                    // BMP-3M
-    "rhs_zsu234_aa",                                                    // ZSU-23-4V
-    "rhs_zsu234_aa",                                                    // ZSU-23-4V
+    "O_APC_Tracked_02_AA_F",                                                    // ZSU-23-4V
+    "O_APC_Tracked_02_AA_F",                                                    // ZSU-23-4V
     "rhs_t80uk",                                                          // T80
     "rhs_t90a_tv",                                                      // T90A
     "rhs_t15_tv",                                                       // T-15
@@ -77,8 +80,8 @@ opfor_vehicles = [
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
     "rhs_bmd4ma_vdv",                                                   // BMD-4MA
     "rhs_bmp3m_msv",                                                    // BMP-3M
     "rhs_t15_tv",                                                       // T-15
@@ -87,17 +90,17 @@ opfor_vehicles_low_intensity = [
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
     "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
     "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
     "rhs_bmp2d_msv",                                                    // BMP-2D
     "rhs_bmd4ma_vdv",                                                   // BMD-4MA
     "rhs_bmp2k_msv",                                                    // BMP-2K
     "rhs_bmp3m_msv",                                                    // BMP-3M
-    "rhs_zsu234_aa",                                                    // ZSU-23-4V
-    "rhs_zsu234_aa",                                                    // ZSU-23-4V
+    "O_APC_Tracked_02_AA_F",                                                    // ZSU-23-4V
+    "O_APC_Tracked_02_AA_F",                                                    // ZSU-23-4V
     "rhs_t80uk",                                                          // T80
     "rhs_t80uk",                                                          // T80
     "rhs_t90a_tv",                                                      // T90A
@@ -112,9 +115,9 @@ opfor_battlegroup_vehicles = [
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
-    "rhs_tigr_msv",                                                     // GAZ-233011
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_btr80a_msv",                                                     // GAZ-233011
+    "rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
     "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
     "rhs_btr80a_msv",                                                    // BTR-80
     "rhs_bmd4ma_vdv",                                                   // BMD-4MA
@@ -151,7 +154,9 @@ opfor_choppers = [
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
     "rhs_mig29sm_vvsc",                                                 // MIG-29
-    "RHS_T50_vvs_generic",                                              // SU-57
-    "RHS_TU95MS_vvs_chelyabinsk",                                       // TU-95MS
-    "RHS_Su25SM_KH29_vvsc"                                              // Su-25 (KH29)
+    "RHS_T50_vvs_051",                                              // SU-57
+	"RHS_T50_vvs_051",                                              // SU-57
+	"RHS_T50_vvs_051",                                              // SU-57
+    "FIR_F14A_IRIAF",                                       			// Iranian F-14
+    "FIR_F16C_EMEMY_TYPE_A"                                             // Evil F-16
 ];
