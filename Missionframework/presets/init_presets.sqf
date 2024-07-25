@@ -67,6 +67,7 @@ switch (KP_liberation_preset_opfor) do {
     case 22: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\rhs_usaf_wdl.sqf";};
     case 23: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\bwmod.sqf";};
     case 24: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\bwmod_gm.sqf";};
+    case 25: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\Afghan.sqf";};
     default  {[] call compileFinal preprocessFileLineNumbers "presets\opfor\custom.sqf";};
 };
 
