@@ -136,7 +136,8 @@ KP_liberation_preset_blufor = 0;
 21 = RHS USA Desert
 22 = RHS USA Woodland 
 23 = BW Mod 
-24 = BW Mod and GM */
+24 = BW Mod and GM
+25 = Afghan */
 KP_liberation_preset_opfor = 0;
 
 /* Resistance preset:
