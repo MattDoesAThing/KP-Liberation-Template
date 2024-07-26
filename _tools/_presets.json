@@ -437,10 +437,10 @@
         "map": "Gulfcoast",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
-            "KP_liberation_preset_blufor": 6,
-            "KP_liberation_preset_opfor": 2,
-            "KP_liberation_preset_resistance": 0,
-            "KP_liberation_preset_civilians": 0,
+            "KP_liberation_preset_blufor": 4,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 9,
+            "KP_liberation_preset_civilians": 1,
             "KP_liberation_arsenal": 0
         },
         "workshopId": ""
