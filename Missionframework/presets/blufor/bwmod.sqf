@@ -127,6 +127,7 @@ heavy_vehicles = [
 	["HMCS_VW1URB",2000,2000,600],                             			// Mech
 	["JGPT",1750,1750,500],                             				// Mech anti-infantry
 	["O_BMPT",300,250,175],										// BMPT Terminator 2
+    ["m1128_mgs_b",300,250,175],													//MGS Stryker
     ["rhsusf_m109_usarmy",600,1250,300]                                 // M109A6
 ];
 
