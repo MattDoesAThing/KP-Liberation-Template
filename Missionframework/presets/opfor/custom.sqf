@@ -80,7 +80,7 @@ opfor_vehicles = [
 	"rhsusf_m1a1aim_tuski_d",
 	"rhsusf_m1a2sep1tuskiid_usarmy",												//T72B
 	"rhsusf_stryker_m1126_mk19_d",												//ZSU-23-4V
-	"m1128_mgs_b",													\\MGS Stryker
+	"m1128_mgs_b",													//MGS Stryker
 	"O_BMPT",
 	"rhsusf_stryker_m1126_mk19_d"												//T-140K Angara
 ];
@@ -96,7 +96,7 @@ opfor_vehicles_low_intensity = [
 	"rhsusf_stryker_m1126_m2_d",												//BMP-1
 	"rhsusf_stryker_m1126_mk19_d",												//BMP-1
 	"RHS_M2A2_BUSKI",												//BMP-2
-	"m1128_mgs_b",													\\MGS Stryker
+	"m1128_mgs_b",													//MGS Stryker
 	"rhsusf_M1232_M2_usarmy_d"											//BTR-K Kamysh
 ];
 
@@ -114,7 +114,7 @@ opfor_battlegroup_vehicles = [										//Land Rover (SPG)
 	"rhsusf_m1a1aim_tuski_d",												//T72B
 	"rhsusf_m1a1aim_tuski_d",
 	"rhsusf_m1a2sep1tuskiid_usarmy",												//T72B
-	"m1128_mgs_b",													\\MGS Stryker
+	"m1128_mgs_b",													//MGS Stryker
 	"RHS_M6",												//ZSU-23-4V
 	"rhsusf_f22",												//ZSU-23-4V
 	"RHS_UH60M_d",												//Mi-8MT (Cargo)
@@ -146,7 +146,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"RHS_MELB_AH6M",
 	"RHS_MELB_AH6M",
 	"RHS_CH_47F_10",
-	"m1128_mgs_b",													\\MGS Stryker
+	"m1128_mgs_b",													//MGS Stryker
 	"rhsusf_CH53E_USMC_D",
 	"RHS_UH1Y_d"										//Mi-290 Taru (Bench)
 ];
