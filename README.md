@@ -177,7 +177,40 @@ You can play every map without any mods (only the maps themself) if you set the 
 * Gulfcoast
     * [Gulfcoast](https://steamcommunity.com/sharedfiles/filedetails/?id=1617004814)
     * [CUP Terrains - Core](https://steamcommunity.com/workshop/filedetails/?id=583496184)
-    
+* Stubbhult
+    * [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103)
+    * [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117)
+    * [Stubbhult](https://steamcommunity.com/workshop/filedetails/?id=3353189981)
+    * [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
+* ChernarusRedux
+    * [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103)
+    * [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117)
+    * [CUP Terrains - Core](https://steamcommunity.com/workshop/filedetails/?id=583496184)
+    * [Chernarus Redux](https://steamcommunity.com/workshop/filedetails/?id=1128256978)
+    * [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
+* Laghisola
+    * [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
+    * [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103)
+    * [RHSGREF](https://steamcommunity.com/workshop/filedetails/?id=843593391)
+    * [RHSSAF](https://steamcommunity.com/workshop/filedetails/?id=843632231)
+    * [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117)
+    * [CUP Units](https://steamcommunity.com/workshop/filedetails/?id=497661914)
+    * [CUP Weapons](https://steamcommunity.com/workshop/filedetails/?id=497660133)
+    * [Project OPFOR](https://steamcommunity.com/workshop/filedetails/?id=735566597)
+    * [Laghisola](https://steamcommunity.com/workshop/filedetails/?id=2175069333)
+* Podagorsk
+    * [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117)
+    * [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103)
+    * [CUP Terrains - CWA](https://steamcommunity.com/workshop/filedetails/?id=853743366)
+    * [FDF Podagorsk](https://steamcommunity.com/workshop/filedetails/?id=3293017688)
+* UMBColombia
+    * [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103)
+    * [RHSGREF](https://steamcommunity.com/workshop/filedetails/?id=843593391)
+    * [RHSSAF](https://steamcommunity.com/workshop/filedetails/?id=843632231)
+    * [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117)
+    * [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
+    * [UMB Colombia](https://steamcommunity.com/workshop/filedetails/?id=2266710560)
+      
 ## Recommended Mods
 These mods are recommended by us, as they are likely to increase your gaming experience:
 * [ACE](https://steamcommunity.com/sharedfiles/filedetails/?id=463939057)
