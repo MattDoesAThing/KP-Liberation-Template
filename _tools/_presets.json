@@ -446,6 +446,76 @@
         "workshopId": ""
     },
     {
+        "sourceFolder": "kp_liberation.Stubbhult",
+        "missionName": "kp_liberation",
+        "map": "Stubbhult",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 4,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 9,
+            "KP_liberation_preset_civilians": 1,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+    {
+        "sourceFolder": "kp_liberation.ChernarusRedux",
+        "missionName": "kp_liberation",
+        "map": "Chernarus Redux",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 4,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 9,
+            "KP_liberation_preset_civilians": 1,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+    {
+        "sourceFolder": "kp_liberation.Laghisola",
+        "missionName": "kp_liberation",
+        "map": "Laghisola",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 4,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 9,
+            "KP_liberation_preset_civilians": 1,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+    {
+        "sourceFolder": "kp_liberation.Podagorsk",
+        "missionName": "kp_liberation",
+        "map": "Podagorsk",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 4,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 9,
+            "KP_liberation_preset_civilians": 1,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+    {
+        "sourceFolder": "kp_liberation.UMBColombia",
+        "missionName": "kp_liberation",
+        "map": "UMB_Colombia",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 4,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 9,
+            "KP_liberation_preset_civilians": 1,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+    {
         "sourceFolder": "kp_liberation.yulakia",
         "missionName": "kp_liberation",
         "map": "yulakia",
