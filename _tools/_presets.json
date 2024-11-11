@@ -462,7 +462,7 @@
     {
         "sourceFolder": "kp_liberation.ChernarusRedux",
         "missionName": "kp_liberation",
-        "map": "Chernarus Redux",
+        "map": "ChernarusRedux",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
             "KP_liberation_preset_blufor": 4,
@@ -504,7 +504,7 @@
     {
         "sourceFolder": "kp_liberation.UMBColombia",
         "missionName": "kp_liberation",
-        "map": "UMB_Colombia",
+        "map": "UMBColombia",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
             "KP_liberation_preset_blufor": 4,
