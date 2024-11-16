@@ -240,6 +240,13 @@ Also you should think about using these mods as serverside mods:
 * [Advanced Sling Loading](http://steamcommunity.com/sharedfiles/filedetails/?id=615007497)
 * [Advanced Towing](http://steamcommunity.com/sharedfiles/filedetails/?id=639837898)
 
+
+## Shameless plug to my other repo that I use to maintain my servers
+
+### [MattDoesAThing/Gameservers](https://github.com/MattDoesAThing/Gameservers/tree/main/Arma%203)
+
+
+
 ## Recommended Difficulty Settings
 I recommend using the following difficulty settings for this mission (User profile of your server):
 ```
