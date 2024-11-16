@@ -215,6 +215,8 @@ You can play every map without any mods (only the maps themself) if you set the 
 
 * Link to the mods I use as a base for all [Base Mods](https://github.com/MattDoesAThing/Gameservers/blob/main/Arma%203/Base%20Mod%20list.html)
 
+### Server Side Mods that I use
+- [Server side](https://github.com/MattDoesAThing/Gameservers/blob/main/Arma%203/Server%20Side%20Mod%20List.html)
 
 
 ### These mods are recommended by us, as they are likely to increase your gaming experience:
