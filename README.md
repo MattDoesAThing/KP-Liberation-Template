@@ -54,7 +54,7 @@ The area has fallen to the enemy, and it is up to you to take it back. Embark on
 These mods are needed if you want to use the prepackaged missionfiles from the release tab or Steam Workshop.
 You can play every map without any mods (only the maps themself) if you set the preset to custom in the file `kp_liberation_config`.
 
-## Baseline Mods needed
+## Baseline Mods needed [WIP]
 * You will need to have RHS US Forces as I set Potatoe1 to be a CH-47 instead of the Huron
     * [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
 
