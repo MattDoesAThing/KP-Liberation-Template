@@ -50,7 +50,20 @@ The area has fallen to the enemy, and it is up to you to take it back. Embark on
 * Accomplish meaningful secondary objectives that will benefit your progression.
 * Never lose your progress with the built-in server-side save system.
 
-## Needed Mods
+## Recommended Mods
+### Baseline Mods I use [Always evolving]
+
+* Link to the mods I use as a base for all [Base Mods](https://github.com/MattDoesAThing/Gameservers/blob/main/Arma%203/Base%20Mod%20list.html)
+
+### Server Side Mods that I use
+- [Server Side Mods](https://github.com/MattDoesAThing/Gameservers/blob/main/Arma%203/Server%20Side%20Mod%20List.html)
+
+
+## Shameless plug to my other repo that I use to maintain my servers
+
+### [MattDoesAThing/Gameservers](https://github.com/MattDoesAThing/Gameservers/tree/main/Arma%203)
+
+## Required Mods
 These mods are needed if you want to use the prepackaged missionfiles from the release tab or Steam Workshop.
 You can play every map without any mods (only the maps themself) if you set the preset to custom in the file `kp_liberation_config`.
 * You will need to have RHS US Forces as I set Potatoe1 to be a CH-47 instead of the Huron
@@ -210,40 +223,6 @@ You can play every map without any mods (only the maps themself) if you set the 
     * [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
     * [UMB Colombia](https://steamcommunity.com/workshop/filedetails/?id=2266710560)
       
-## Recommended Mods
-### Baseline Mods I use [Always evolving]
-
-* Link to the mods I use as a base for all [Base Mods](https://github.com/MattDoesAThing/Gameservers/blob/main/Arma%203/Base%20Mod%20list.html)
-
-### Server Side Mods that I use
-- [Server Side Mods](https://github.com/MattDoesAThing/Gameservers/blob/main/Arma%203/Server%20Side%20Mod%20List.html)
-
-
-### These mods are recommended by us, as they are likely to increase your gaming experience:
-* [ACE](https://steamcommunity.com/sharedfiles/filedetails/?id=463939057)
-* [ACE3 - BWMOD Compatibility](https://steamcommunity.com/sharedfiles/filedetails/?id=1200145989)
-* [ACRE 2](https://steamcommunity.com/sharedfiles/filedetails/?id=751965892)
-* [Advanced Urban Rappeling](https://steamcommunity.com/sharedfiles/filedetails/?id=730310357)
-* [CBA_A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
-* [Discord Rich Presence](https://steamcommunity.com/sharedfiles/filedetails/?id=1493485159)
-* [DUI - Squad Radar](https://steamcommunity.com/sharedfiles/filedetails/?id=1638341685)
-* [Enhanced Movement](https://steamcommunity.com/sharedfiles/filedetails/?id=333310405)
-* [Immerse](https://steamcommunity.com/sharedfiles/filedetails/?id=825172265)
-* [JSRS SOUNDMOD](https://steamcommunity.com/sharedfiles/filedetails/?id=861133494)
-* [JSRS SOUNDMOD - RHS AFRF Mod Pack Sound Support](https://steamcommunity.com/sharedfiles/filedetails/?id=945476727)
-* [JSRS SOUNDMOD - RHS USAF Mod Pack Sound Support](https://steamcommunity.com/sharedfiles/filedetails/?id=1180533757)
-* [KP Ranks](https://steamcommunity.com/sharedfiles/filedetails/?id=741621641)
-* [Suppress](https://steamcommunity.com/sharedfiles/filedetails/?id=825174634)
-
-Also you should think about using these mods as serverside mods:
-* [Advanced Rappeling](http://steamcommunity.com/sharedfiles/filedetails/?id=713709341)
-* [Advanced Sling Loading](http://steamcommunity.com/sharedfiles/filedetails/?id=615007497)
-* [Advanced Towing](http://steamcommunity.com/sharedfiles/filedetails/?id=639837898)
-
-
-## Shameless plug to my other repo that I use to maintain my servers
-
-### [MattDoesAThing/Gameservers](https://github.com/MattDoesAThing/Gameservers/tree/main/Arma%203)
 
 
 
