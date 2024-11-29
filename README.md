@@ -1,3 +1,10 @@
+# Expeditionary CDLC addition branch 
+* Adds the Marine faction and carrier into the game instead of the USS Freedom. 
+* This will be the branch I add any additions like this into
+
+# Current Maps available
+* Altis - This came from [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3373200780) that I have incorporated into my own.
+  
 # My added tweaks and method to the madness
 * All the KP goodness plus whatever I can borrow from others and my own tweaks to make the experience that much more betterer.
 * For the mission files I do find that are not mine I try to document who they came from since it's only fair to give them credit for their hard work.
