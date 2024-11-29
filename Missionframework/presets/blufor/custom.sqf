@@ -22,14 +22,15 @@
 */
 FOB_typename = "Land_Cargo_HQ_V1_F";                                    // This is the main FOB HQ building.
 FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This is the FOB as a container.
-FOB_truck_typename = "B_Truck_01_box_F";                                // This is the FOB as a vehicle.
+FOB_truck_typename = "EF_B_Truck_01_box_MJTF_Des";                                // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
-Respawn_truck_typename = "B_Truck_01_medical_F";                        // This is the mobile respawn (and medical) truck.
-huron_typename = "RHS_CH_47F_10_cargo";                                 // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
-crewman_classname = "B_crew_F";                                         // This defines the crew for vehicles.
+Respawn_truck_typename = "EF_B_Truck_01_medical_MJTF_Des";                        // This is the mobile respawn (and medical) truck.
+huron_typename = "RHS_CH_47F_10_cargo";                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+crewman_classname = "EF_B_Marine_Crew_Des";                                         // This defines the crew for vehicles.
 pilot_classname = "B_Helipilot_F";                                      // This defines the pilot for helicopters.
 KP_liberation_little_bird_classname = "B_Heli_Light_01_F";              // These are the little birds which spawn on the Freedom or at Chimera base.
-KP_liberation_boat_classname = "B_Boat_Transport_01_F";                 // These are the boats which spawn at the stern of the Freedom.
+KP_liberation_boat_classname = "EF_B_CombatBoat_Unarmed_MJTF_Des";                 // These are the boats which spawn at the stern of the Freedom.
+KP_liberation_bigboat_classname = "EF_B_LCC_MJTF_Des";                  // For the LCC-1
 KP_liberation_truck_classname = "B_Truck_01_transport_F";               // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";     // A small storage area for resources.
 KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";     // A large storage area for resources.
@@ -40,7 +41,6 @@ KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";             // The h
 KP_liberation_supply_crate = "CargoNet_01_box_F";                       // This defines the supply crates, as in resources.
 KP_liberation_ammo_crate = "B_CargoNet_01_ammo_F";                      // This defines the ammunition crates.
 KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This defines the fuel crates.
-
 /*
     --- Friendly classnames ---
     Each array below represents one of the 7 pages within the build menu.
@@ -50,32 +50,25 @@ KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This 
     IMPORTANT: The last element inside each array must have no comma at the end!
 */
 infantry_units = [
-    ["B_Soldier_lite_F",15,0,0],                                        // Rifleman (Light)
-    ["B_Soldier_F",20,0,0],                                             // Rifleman
-    ["B_soldier_LAT_F",30,0,0],                                         // Rifleman (AT)
-    ["B_Soldier_GL_F",25,0,0],                                          // Grenadier
-    ["B_soldier_AR_F",25,0,0],                                          // Autorifleman
-    ["B_HeavyGunner_F",35,0,0],                                         // Heavygunner
-    ["B_soldier_M_F",30,0,0],                                           // Marksman
-    ["B_Sharpshooter_F",40,0,0],                                        // Sharpshooter
-    ["B_soldier_AT_F",50,10,0],                                         // AT Specialist
-    ["B_soldier_AA_F",50,10,0],                                         // AA Specialist
-    ["B_medic_F",30,0,0],                                               // Combat Life Saver
-    ["B_engineer_F",30,0,0],                                            // Engineer
-    ["B_soldier_exp_F",30,0,0],                                         // Explosives Specialist
-    ["B_recon_F",20,0,0],                                               // Recon Scout
-    ["B_recon_LAT_F",30,0,0],                                           // Recon Scout (AT)
-    ["B_recon_M_F",30,0,0],                                             // Recon Marksman
-    ["B_Recon_Sharpshooter_F",40,0,0],                                  // Recon Sharpshooter
-    ["B_recon_medic_F",30,0,0],                                         // Recon Paramedic
-    ["B_recon_exp_F",30,0,0],                                           // Recon Demolition Expert
-    ["B_sniper_F",70,5,0],                                              // Sniper
-    ["B_ghillie_ard_F",70,5,0],                                         // Sniper (Arid)
-    ["B_ghillie_lsh_F",70,5,0],                                         // Sniper (Lush)
-    ["B_ghillie_sard_F",70,5,0],                                        // Sniper (Semi-Arid)
-    ["B_spotter_F",20,0,0],                                             // Spotter
-    ["B_crew_F",10,0,0],                                                // Crewman
-    ["B_soldier_PG_F",20,0,0],                                          // Para Trooper
+    ["EF_B_Marine_Light_Des",15,0,0],                                        // Rifleman (Light)
+    ["EF_B_Marine_R_Des",20,0,0],                                             // Rifleman
+    ["EF_B_Marine_LAT_Des",30,0,0],                                         // Rifleman (LAT)
+    ["EF_B_Marine_LAT2_Des",30,0,0],                                        // Rifleman (AT)
+    ["EF_B_Marine_GL_Des",25,0,0],                                          // Grenadier
+    ["EF_B_Marine_AR_Des",25,0,0],                                          // Autorifleman
+    ["EF_B_Marine_Mark_Des",30,0,0],                                           // Marksman
+    ["EF_B_Marine_AT_Des",50,10,0],                                         // AT Specialist
+    ["EF_B_Marine_AA_Des",50,10,0],                                         // AA Specialist
+    ["EF_B_Marine_Medic_Des",30,0,0],                                               // Combat Life Saver
+    ["EF_B_Marine_Eng_Des",30,0,0],                                            // Engineer
+    ["EF_B_Marine_Exp_Des",30,0,0],                                         // Explosives Specialist
+    ["EF_B_Marine_Recon_Des",20,0,0],                                               // Recon Scout
+    ["EF_B_Marine_Recon_LAT_Des",30,0,0],                                           // Recon Scout (AT)
+    ["EF_B_Marine_Recon_M_Des",30,0,0],                                             // Recon Marksman
+    ["EF_B_Marine_Recon_Medic_Des",30,0,0],                                         // Recon Paramedic
+    ["EF_B_Marine_Recon_Exp_Des",30,0,0],                                           // Recon Demolition Expert
+    ["EF_B_Marine_Crew_Des",10,0,0],                                                // Crewman
+    ["EF_B_Marine_BoatCrew_Des",10,0,0],
     ["B_helicrew_F",10,0,0],                                            // Helicopter Crew
     ["B_Helipilot_F",10,0,0],                                           // Helicopter Pilot
     ["B_Pilot_F",10,0,0]                                                // Pilot
@@ -86,12 +79,23 @@ light_vehicles = [
     ["B_LSV_01_unarmed_F",75,0,50],                                     // Prowler
     ["B_LSV_01_armed_F",75,40,50],                                      // Prowler (HMG)
     ["B_LSV_01_AT_F",75,60,50],                                         // Prowler (AT)
-    ["B_MRAP_01_F",100,0,50],                                           // Hunter
-    ["B_MRAP_01_hmg_F",100,40,50],                                      // Hunter (HMG)
-    ["B_MRAP_01_gmg_F",100,60,50],                                      // Hunter (GMG)
-    ["I_MRAP_03_F",100,0,50],                                           // Strider
-    ["I_MRAP_03_hmg_F",100,40,50],                                      // Strider (HMG)
-    ["I_MRAP_03_gmg_F",100,60,50],                                      // Strider (GMG)
+    ["EF_B_MRAP_01_hmg_MJTF_Des",100,0,50],                             // Hunter
+    ["EF_B_MRAP_01_hmg_MJTF_Des",100,40,50],                            // Hunter (HMG)
+    ["EF_B_MRAP_01_gmg_MJTF_Des",100,60,50],                            // Hunter (GMG)
+    ["EF_B_MRAP_01_FSV_MJTF_Des",100,80,50],                            // Hunter (FSV)
+    ["EF_B_MRAP_01_AT_MJTF_Des",100,100,50],                            // Hunter (AT)
+    ["EF_B_MRAP_01_LAAD_MJTF_Des",100,100,50],                            // Hunter (AA)
+    ["EF_B_Truck_01_transport_MJTF_Des",125,0,75],                                // HEMTT Transport
+    ["EF_B_Truck_01_covered_MJTF_Des",125,0,75],                                  // HEMTT Transport (Covered)
+    ["EF_B_UGV_01_MJTF_Des",150,0,50],                                            // UGV Stomper
+    ["EF_B_UGV_01_rcws_MJTF_Des",150,40,50],                                      // UGV Stomper (RCWS)
+    ["EF_B_Boat_Transport_01_MJTF_Des",100,0,25],                                 // Assault Boat
+    ["EF_B_Boat_Armed_01_minigun_MJTF_Des",200,80,75],                            // Speedboat Minigun
+    ["EF_B_CombatBoat_Unarmed_MJTF_Des",250,0,100],
+    ["EF_B_CombatBoat_HMG_MJTF_Des",250,80,100],
+    ["EF_B_CombatBoat_AT_MJTF_Des",250,100,100],
+    ["EF_B_LCC_MJTF_Des",300,0,100],                                    // LCC-1
+    ["EF_B_SDV_01_MJTF_Des",150,0,50],   
     ["rhsusf_m1025_w",100,0,50],                                        // M1025A2
     ["rhsusf_m1025_w_m2",100,40,50],                                    // M1025A2 (M2)
     ["rhsusf_m1025_w_mk19",100,60,50],                                  // M1025A2 (Mk19)
@@ -128,6 +132,15 @@ heavy_vehicles = [
     ["rhsusf_m113_usarmy_medical",200,0,100],                           // M113A3 (Medical)
     ["I_LT_01_scout_F",200,0,125],                                      // AWC 302 Nyx (AA)
     ["B_APC_Wheeled_01_cannon_F",200,75,125],                           // AMV-7 Marshall
+    ["EF_B_AAV9_MJTF_Des",300,100,125],                                  // AAV-9 Mack
+    ["EF_B_AAV9_50mm_MJTF_Des",300,125,125],                             // AAV-9A1 Mack
+    ["B_APC_Tracked_01_AA_F",300,250,175],                              // IFV-6a Cheetah
+    ["EF_B_MBT_01_cannon_MJTF_Des",400,300,200],                                  // M2A1 Slammer
+    ["EF_B_MBT_01_TUSK_MJTF_Des",500,350,225],                                    // M2A4 Slammer UP
+    ["B_AFV_Wheeled_01_cannon_F",500,500,250],                          // Rhino MGS
+    ["B_AFV_Wheeled_01_up_cannon_F",550,550,250],                       // Rhino MGS UP
+    ["B_MBT_01_arty_F",600,1250,300],                                   // M4 Scorcher
+    ["EF_B_MBT_01_mlrs_MJTF_Des",800,1750,400],   
     ["I_APC_Wheeled_03_cannon_F",200,75,125],                           // AFV-4 Gorgon
     ["B_APC_Tracked_01_rcws_F",300,100,150],                            // IFV-6c Panther
     ["I_APC_tracked_03_cannon_F",300,150,150],                          // FV-720 Mora
@@ -154,10 +167,14 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
-    ["B_UAV_01_F",75,0,25],                                             // AR-2 Darter
+    ["EF_B_UAV_01_MJTF_Des",75,0,25],                                             // AR-2 Darter
     ["B_UAV_06_F",80,0,30],                                             // AL-6 Pelican (Cargo)
     ["B_Heli_Light_01_F",200,0,100],                                    // MH-9 Hummingbird
     ["B_Heli_Light_01_dynamicLoadout_F",200,100,100],                   // AH-9 Pawnee
+    ["EF_B_Heli_Attack_01_dynamicLoadout_MJTF_Des",500,400,200],        // AH-99 Blackfoot
+    ["EF_B_AH99J_MJTF_Des",500,500,200],                                // AH-99J
+    ["EF_B_Heli_Transport_01_MJTF_Des",250,80,150],                     // UH-80 Ghost Hawk
+    ["EF_B_UAV_02_dynamicLoadout_MJTF_Des",400,400,200],                          // MQ-4A Greyhawk
     ["RHS_MELB_MH6M",200,0,100],                                        // MH-6M Little Bird
     ["RHS_MELB_AH6M",200,200,100],                                      // AH-6M Pawnee
     ["I_Heli_light_03_unarmed_F",225,0,125],                            // WY-55 Hellcat
@@ -335,9 +352,9 @@ support_vehicles = [
     ["USAF_missileCart_Mk82",50,150,0],                                 // Missile Cart (Mk82)
     ["CUP_B_TowingTractor_NATO",50,0,25],                               // Towing Tractor
     ["B_APC_Tracked_01_CRV_F",500,250,350],                             // CRV-6e Bobcat
-    ["B_Truck_01_Repair_F",325,0,75],                                   // HEMTT Repair
-    ["B_Truck_01_fuel_F",125,0,275],                                    // HEMTT Fuel
-    ["B_Truck_01_ammo_F",125,200,75],                                   // HEMTT Ammo
+    ["EF_B_Truck_01_Repair_MJTF_Des",325,0,75],                                   // HEMTT Repair
+    ["EF_B_Truck_01_fuel_MJTF_Des",125,0,275],                                    // HEMTT Fuel
+    ["EF_B_Truck_01_ammo_MJTF_Des",125,200,75],                                   // HEMTT Ammo
     ["rhsusf_M977A4_REPAIR_BKIT_usarmy_wd",325,0,75],                   // M977A4 Repair
     ["rhsusf_M978A4_BKIT_usarmy_wd",125,0,275],                         // M978A4 Fuel
     ["rhsusf_M977A4_AMMO_BKIT_usarmy_wd",125,200,75],                   // M977A4 Ammo
@@ -354,82 +371,82 @@ support_vehicles = [
 
 // Light infantry squad.
 blufor_squad_inf_light = [
-    "B_Soldier_TL_F",
-    "B_Soldier_F",
-    "B_Soldier_F",
-    "B_Soldier_LAT_F",
-    "B_Soldier_GL_F",
-    "B_soldier_AR_F",
-    "B_soldier_AR_F",
-    "B_soldier_M_F",
-    "B_medic_F",
-    "B_engineer_F"
+    "EF_B_Marine_TL_Des",
+    "EF_B_Marine_R_Des",
+    "EF_B_Marine_R_Des",
+    "EF_B_Marine_LAT_Des",
+    "EF_B_Marine_GL_Des",
+    "EF_B_Marine_AR_Des",
+    "EF_B_Marine_AR_Des",
+    "EF_B_Marine_Mark_Des",
+    "EF_B_Marine_Medic_Des",
+    "EF_B_Marine_Eng_Des"
 ];
 
 // Heavy infantry squad.
 blufor_squad_inf = [
-    "B_Soldier_TL_F",
-    "B_Soldier_LAT_F",
-    "B_Soldier_LAT_F",
-    "B_Soldier_GL_F",
-    "B_soldier_AR_F",
-    "B_soldier_AR_F",
-    "B_HeavyGunner_F",
-    "B_Sharpshooter_F",
-    "B_medic_F",
-    "B_engineer_F"
+    "EF_B_Marine_TL_Des",
+    "EF_B_Marine_LAT_Des",
+    "EF_B_Marine_LAT2_Des",
+    "EF_B_Marine_GL_Des",
+    "EF_B_Marine_AR_Des",
+    "EF_B_Marine_AR_Des",
+    "EF_B_Marine_AT_Des",
+    "EF_B_Marine_Mark_Des",
+    "EF_B_Marine_Medic_Des",
+    "EF_B_Marine_Eng_Des"
 ];
 
 // AT specialists squad.
 blufor_squad_at = [
-    "B_Soldier_TL_F",
-    "B_Soldier_F",
-    "B_Soldier_F",
-    "B_soldier_AT_F",
-    "B_soldier_AT_F",
-    "B_soldier_AT_F",
-    "B_medic_F",
-    "B_soldier_F"
+    "EF_B_Marine_TL_Des",
+    "EF_B_Marine_R_Des",
+    "EF_B_Marine_R_Des",
+    "EF_B_Marine_AT_Des",
+    "EF_B_Marine_AT_Des",
+    "EF_B_Marine_AT_Des",
+    "EF_B_Marine_Medic_Des",
+    "EF_B_Marine_Exp_Des"
 ];
 
 // AA specialists squad.
 blufor_squad_aa = [
-    "B_Soldier_TL_F",
-    "B_Soldier_F",
-    "B_Soldier_F",
-    "B_soldier_AA_F",
-    "B_soldier_AA_F",
-    "B_soldier_AA_F",
-    "B_medic_F",
-    "B_soldier_F"
+    "EF_B_Marine_TL_Des",
+    "EF_B_Marine_R_Des",
+    "EF_B_Marine_R_Des",
+    "EF_B_Marine_AA_Des",
+    "EF_B_Marine_AA_Des",
+    "EF_B_Marine_AA_Des",
+    "EF_B_Marine_Medic_Des",
+    "EF_B_Marine_Exp_Des"
 ];
 
 // Force recon squad.
 blufor_squad_recon = [
-    "B_recon_TL_F",
-    "B_recon_F",
-    "B_recon_F",
-    "B_recon_LAT_F",
-    "B_recon_M_F",
-    "B_recon_M_F",
-    "B_Recon_Sharpshooter_F",
-    "B_Recon_Sharpshooter_F",
-    "B_recon_medic_F",
-    "B_recon_exp_F"
+    "EF_B_Marine_Recon_TL_Des",
+    "EF_B_Marine_Recon_Des",
+    "EF_B_Marine_Recon_Des",
+    "EF_B_Marine_Recon_LAT_Des",
+    "EF_B_Marine_Recon_M_Des",
+    "EF_B_Marine_Recon_M_Des",
+    "EF_B_Marine_Recon_M_Des",
+    "EF_B_Marine_AR_Des",
+    "EF_B_Marine_Recon_Medic_Des",
+    "EF_B_Marine_Recon_Exp_Des"
 ];
 
 // Paratroopers squad (The units of this squad will automatically get parachutes on build)
 blufor_squad_para = [
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F"
+    "EF_B_Marine_Light_Des",
+    "EF_B_Marine_Light_Des",
+    "EF_B_Marine_Light_Des",
+    "EF_B_Marine_Light_Des",
+    "EF_B_Marine_Light_Des",
+    "EF_B_Marine_Light_Des",
+    "EF_B_Marine_Light_Des",
+    "EF_B_Marine_Light_Des",
+    "EF_B_Marine_Light_Des",
+    "EF_B_Marine_Light_Des"
 ];
 
 /*
