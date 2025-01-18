@@ -1,15 +1,13 @@
-[
-    {
-        "sourceFolder": "kp_liberation.pja319",
-        "missionName": "kp_liberation",
-        "map": "pja319",
-        "configFile": "kp_liberation_config.sqf",
-        "variables": {
-            "KP_liberation_preset_blufor": 0,
-            "KP_liberation_preset_opfor": 0,
-            "KP_liberation_preset_resistance": 0,
-            "KP_liberation_preset_civilians": 0,
-            "KP_liberation_arsenal": 0
-        }
+{
+    "sourceFolder": "kp_liberation.pja319",
+    "missionName": "kp_liberation",
+    "map": "pja319",
+    "configFile": "kp_liberation_config.sqf",
+    "variables": {
+        "KP_liberation_preset_blufor": 0,
+        "KP_liberation_preset_opfor": 0,
+        "KP_liberation_preset_resistance": 0,
+        "KP_liberation_preset_civilians": 0,
+        "KP_liberation_arsenal": 0
     }
-]
+}
