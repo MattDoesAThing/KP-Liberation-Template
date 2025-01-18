@@ -1,3 +1,15 @@
+# 40K Mod from [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2080062226&searchtext=only+war)
+* [Djenahoud](https://steamcommunity.com/workshop/filedetails/?id=937515516)
+* [There is only war mod](https://steamcommunity.com/workshop/filedetails/?id=1160452826)
+* [Weapon eventhandler framework verison 1.2](https://steamcommunity.com/workshop/filedetails/?id=1157866464)
+* [Grimdark Armory](https://steamcommunity.com/workshop/filedetails/?id=1655786638)
+* [Dosiel Funtime 40k Skins](https://steamcommunity.com/workshop/filedetails/?id=1834955889)
+* [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
+* [Helicopter Dust Efx Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1537745369)
+* [Imperial Conquest - Warhammer 40K](https://steamcommunity.com/sharedfiles/filedetails/?id=2161719492&searchtext=imperial+conquest)
+* [Imperial Conquest: Weapon Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=2601855392&searchtext=imperial+conquest)
+
+  
 # My added tweaks and method to the madness
 * All the KP goodness plus whatever I can borrow from others and my own tweaks to make the experience that much more betterer.
 * For the mission files I do find that are not mine I try to document who they came from since it's only fair to give them credit for their hard work.
