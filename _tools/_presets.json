@@ -1,8 +1,8 @@
 [
     {
-        "sourceFolder": "kp_liberation.Djenahoud",
+        "sourceFolder": "kp_liberation.djenahoud",
         "missionName": "kp_liberation",
-        "map": "Djenahoud",
+        "map": "djenahoud",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
             "KP_liberation_preset_blufor": 0,
