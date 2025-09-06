@@ -145,7 +145,8 @@ opfor_troup_transports = [
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
     "RHS_Mi8MTV3_heavy_vvsc",                                           // Mi-8MTV (rockets)
-    "RHS_Mi24V_vvsc",                                                // Mi-24P (AT)
+    "RHS_Mi8AMTSh_vvsc",                                                // Mi-8MTV (rockets)
+    "RHS_Mi24V_vvsc",                                                   // Mi-24P (AT)
     "RHS_Mi24V_AT_vvsc",                                                // Mi-24V (AT)
     "rhs_mi28n_vvsc",                                                   // MI-28
     "RHS_Ka52_vvsc"                                                     // Ka-52
@@ -154,9 +155,9 @@ opfor_choppers = [
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
     "rhs_mig29sm_vvsc",                                                 // MIG-29
-    "RHS_T50_vvs_051",                                              // SU-57
-	"RHS_T50_vvs_051",                                              // SU-57
 	"RHS_T50_vvs_051",                                              // SU-57
     "FIR_F14A_IRIAF",                                       			// Iranian F-14
+    "rhsusf_f22",													//Su-25
+	"RHS_A10"												//To-201 Shikra
     "FIR_F16C_EMEMY_TYPE_A"                                             // Evil F-16
 ];
