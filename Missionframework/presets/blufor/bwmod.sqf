@@ -23,7 +23,7 @@ Respawn_truck_typename = "rhsusf_M1085A1P2_B_WD_Medical_fmtv_usarmy";   // This 
 huron_typename = "rhsusf_CH53E_USMC_D";                                          // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "BWA3_Crew_Fleck";                                  // This defines the crew for vehicles.
 pilot_classname = "BWA3_Helipilot";                                     // This defines the pilot for helicopters.
-KP_liberation_little_bird_classname = "vtx_MH60M";                  // These are the little birds which spawn on the Freedom or at Chimera base.
+KP_liberation_little_bird_classname = "vtx_MH60M";                      // These are the little birds which spawn on the Freedom or at Chimera base.
 KP_liberation_boat_classname = "B_Boat_Transport_01_F";                 // These are the boats which spawn at the stern of the Freedom.
 KP_liberation_truck_classname = "rhsusf_M977A4_BKIT_usarmy_wd";         // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";     // A small storage area for resources.
@@ -107,6 +107,8 @@ light_vehicles = [
     ["B_Boat_Transport_01_F",100,0,25],                                 // Assault Boat
     ["B_Boat_Armed_01_minigun_F",200,80,75],                            // Speedboat Minigun
     ["rhsusf_mkvsoc",250,200,100],                                      // Mk.V SOCOM
+    ["qav_brdm2",250,100,25],                                           // qav BRDM2
+    ["rhsusf_m1165a1_gmv_m2_m240_socom_d",250,100,25],                  // socom hmmwv
     ["B_SDV_01_F",150,0,50]                                             // SDV
 ];
 
@@ -126,9 +128,22 @@ heavy_vehicles = [
 	["rhsusf_M142_usarmy_WD",600,1250,300],                             // HIMARS
 	["HMCS_VW1URB",2000,2000,600],                             			// Mech
 	["JGPT",1750,1750,500],                             				// Mech anti-infantry
-	["O_BMPT",300,250,175],										// BMPT Terminator 2
-    ["m1128_mgs_b",300,250,175],													//MGS Stryker
-    ["rhsusf_m109_usarmy",600,1250,300]                                 // M109A6
+	["O_BMPT",300,250,175],										        // BMPT Terminator 2
+    ["m1128_mgs_b",300,250,175],										// MGS Stryker
+    ["qav_abramsx",300,250,175],										// QAV abramsx
+    ["B_W_qav_abramsx",600,500,300],									// QAV abramsx
+    ["qav_challenger2_e",600,500,300],									// QAV abramsx
+    ["qav_T72A",400,350,225],											// QAV T-72A
+    ["qav_T90A",400,350,225],                                           // QAV T-90A
+    ["qav_su76",400,350,225],                                           // M1A1SA (Tusk I)
+    ["qav_bmp1_p",300,250,175],                                         // QAV BMP-1
+    ["qav_bmp1_am_p",300,250,175],                                      // QAV BMP-1
+    ["B_T_LT_01_AA_F",500,400,250],                                     // AA
+    ["B_T_Truck_01_1c_F",500,400,250],                                  // AA
+    ["B_T_Truck_01_defender_F",500,400,250],                            // AA
+    ["B_T_Truck_01_radar_F",500,400,250],                               // AA
+    ["B_T_Truck_01_radar_F",500,400,250],                               // AA
+    ["rhsusf_M142_usmc_WD",500,400,250]                                 // MLRS
 ];
 
 air_vehicles = [
@@ -140,7 +155,9 @@ air_vehicles = [
     ["RHS_UH1Y_GS",225,200,125],                                        // UH-1Y (Ground Suppression)
     ["RHS_AH1Z",500,500,200],                                           // AH-1Z (Multi-Role)
     ["RHS_AH64D_wd",750,750,250],                                       // AH-64D (Multi-Role)
+    ["fza_ah64d_b1",750,750,250],                                       // AH-64D (Multi-Role)
 	["vtx_MH60M_DAP_MLASS",500,500,150],                                // MH-60 DAP
+    ["vtx_MH60M_DAP",500,500,150],                                      // MH-60 DAP
 	["BWA3_NH90_TTH_M3M_Fleck",250,50,150],                             // NH90 german cargo heli
 	["Valor_Transport_Armed_HMG_F",250,80,150],                         // VTOL future blackhawk thing no wpns
 	["Valor_Turret_Transport_CrewGun_F",600,600,150],                   // VTOL future blackhawk thing armed
@@ -177,6 +194,15 @@ air_vehicles = [
     ["B_Plane_Fighter_01_Stealth_F",1500,1750,450],                     // F/A-181 Black Wasp II (Stealth)
     ["B_T_VTOL_01_armed_F",750,1500,500],                               // V-44 X Blackfish (Armed)
     ["B_T_VTOL_01_infantry_F",750,0,500],                               // V-44 X Blackfish (Infantry)
+    ["Peral_F35B",1500,1500,450],                                       // F-35A
+    ["USAF_MQ9",400,300,200],                                           // MQ-9 Reaper
+    ["USAF_C130J",500,500,300],                                         // C-130J
+    ["FIR_F15EX",1700,1700,450],                                        // F-15EX Eagle
+    ["FIR_F14D",1000,1000,450],                                         // F-14D
+    ["FIR_F16D",1150,1150,450],                                         // F-16D
+    ["FIR_F16C_Ag_flanker",1150,1150,450],                              // F-16C
+    ["FIR_F18D",1700,1700,450],                                         // F-18 super hornet
+    ["FIR_F15EX_Blank",1700,1700,450],                                  // F-15EX Eagle
     ["B_T_VTOL_01_vehicle_F",750,0,500]                                 // V-44 X Blackfish (Vehicle)
 ];
 
@@ -291,6 +317,8 @@ support_vehicles = [
     ["B_APC_Tracked_01_CRV_F",500,250,350],                             // CRV-6e Bobcat
     ["rhsusf_M977A4_REPAIR_BKIT_usarmy_wd",325,0,75],                   // M977A4 Repair
     ["rhsusf_M978A4_BKIT_usarmy_wd",125,0,275],                         // M978A4 Fuel
+    ["B_T_Truck_01_ammo_F",250,100,25],                                 //ammo truck
+    ["B_T_Truck_01_fuel_F",250,100,25],                                 //fuel truck
     ["rhsusf_M977A4_AMMO_BKIT_usarmy_wd",125,200,75],                   // M977A4 Ammo
     ["B_Slingload_01_Repair_F",275,0,0],                                // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                 // Huron Fuel
