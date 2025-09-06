@@ -502,6 +502,20 @@
         "workshopId": ""
     },
     {
+        "sourceFolder": "kp_liberation.green_sea",
+        "missionName": "kp_liberation",
+        "map": "Green_Sea",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 0,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 0,
+            "KP_liberation_preset_civilians": 1,
+            "KP_liberation_arsenal": 0
+        },
+        "workshopId": ""
+    },
+    {
         "sourceFolder": "kp_liberation.UMBColombia",
         "missionName": "kp_liberation",
         "map": "UMBColombia",
