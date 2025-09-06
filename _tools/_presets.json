@@ -502,9 +502,9 @@
         "workshopId": ""
     },
     {
-        "sourceFolder": "kp_liberation.green_sea",
+        "sourceFolder": "kp_liberation.Green_Sea",
         "missionName": "kp_liberation",
-        "map": "Green_Sea",
+        "map": "green_sea",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
             "KP_liberation_preset_blufor": 0,
