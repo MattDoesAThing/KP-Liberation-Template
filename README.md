@@ -222,9 +222,12 @@ You can play every map without any mods (only the maps themself) if you set the 
     * [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117)
     * [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
     * [UMB Colombia](https://steamcommunity.com/workshop/filedetails/?id=2266710560)
-      
-
-
+* Green Sea
+    * [RHSAFRF](https://steamcommunity.com/workshop/filedetails/?id=843425103)
+    * [RHSUSAF](https://steamcommunity.com/workshop/filedetails/?id=843577117)
+    * [Green Sea Terrain](https://steamcommunity.com/workshop/filedetails/?id=2645015212)
+    * [CUP Terrains - Core](https://steamcommunity.com/workshop/filedetails/?id=583496184)
+    * [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997)
 
 ## Recommended Difficulty Settings
 I recommend using the following difficulty settings for this mission (User profile of your server):
