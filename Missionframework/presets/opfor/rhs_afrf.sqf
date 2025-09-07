@@ -158,6 +158,6 @@ opfor_air = [
 	"RHS_T50_vvs_051",                                              // SU-57
     "FIR_F14A_IRIAF",                                       			// Iranian F-14
     "rhsusf_f22",													//Su-25
-	"RHS_A10"												//To-201 Shikra
+	"RHS_A10",												//To-201 Shikra
     "FIR_F16C_EMEMY_TYPE_A"                                             // Evil F-16
 ];
