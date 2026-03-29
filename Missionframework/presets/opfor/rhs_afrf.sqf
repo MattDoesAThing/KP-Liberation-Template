@@ -50,14 +50,16 @@ militia_squad = [
     "rhs_msv_emr_arifleman",                                            // Autorifleman
     "rhs_msv_emr_marksman",                                             // Marksman
     "rhs_msv_emr_medic",                                                // Medic
+    "rhs_vdv_aa",                                                       // AA Specialist
     "rhs_msv_emr_engineer"                                              // Engineer
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders.
 militia_vehicles = [
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-	"rhs_typhoon_vdv",                                                 // GAZ-233014 (Armed)
-	"rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_tigr_sts_msv",                                              // GAZ-233014 (Armed)
+	"rhsgref_BRDM2_ATGM_msv",                                        // BRDM-2 Missiles (Armed)
+	"rhs_btr80a_msv",                                                // GAZ-233014 (Armed)
+    "rhsgref_BRDM2_vdv",                                             // BRDM-2 (Armed)
 	"rhs_sprut_vdv"                                                  // 2S25 SPRUT
 ];
 
@@ -66,15 +68,18 @@ opfor_vehicles = [
     "rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
     "rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
     "rhs_btr80a_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_t90sm_tv",                                                   // T-90SM
     "rhs_bmd4ma_vdv",                                                   // BMD-4MA
     "rhs_bmp2k_msv",                                                    // BMP-2K
     "rhs_bmp3m_msv",                                                    // BMP-3M
     "O_APC_Tracked_02_AA_F",                                                    // ZSU-23-4V
-    "O_APC_Tracked_02_AA_F",                                                    // ZSU-23-4V
+    "rhs_zsu234_aa",                                                    // ZSU-23-4V
     "rhs_t80uk",                                                          // T80
     "rhs_t90a_tv",                                                      // T90A
     "rhs_t15_tv",                                                       // T-15
     "rhs_igla_AA_pod_msv",                                              // Igla pod turret
+    "rhsgref_BRDM2_ATGM_msv",                                        // BRDM-2 Missiles (Armed)
+    "rhsgref_BRDM2_vdv",                                             // BRDM-2 (Armed)
     "rhs_t90sab_tv"                                                     // T90SA (2016)
 ];
 
@@ -85,6 +90,9 @@ opfor_vehicles_low_intensity = [
     "rhs_bmd4ma_vdv",                                                   // BMD-4MA
     "rhs_bmp3m_msv",                                                    // BMP-3M
     "rhs_t15_tv",                                                       // T-15
+    "rhs_t90sm_tv",                                                   // T-90SM
+    "rhsgref_BRDM2_ATGM_msv",                                        // BRDM-2 Missiles (Armed)
+    "rhsgref_BRDM2_vdv",                                             // BRDM-2 (Armed)
     "rhs_btr80a_msv"                                                    // BTR-80A
 ];
 
@@ -104,12 +112,15 @@ opfor_battlegroup_vehicles = [
     "rhs_t80uk",                                                          // T80
     "rhs_t80uk",                                                          // T80
     "rhs_t90a_tv",                                                      // T90A
+    "rhs_t90sm_tv",                                                   // T-90SM
     "RHS_Mi24P_AT_vvsc",                                                // Mi-24P (AT)
     "RHS_Mi24V_AT_vvsc",                                                // Mi-24V (AT)
     "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "rhs_t15_tv",                                                       // T-15
     "rhs_t14_tv",                                                       // T-14
     "rhs_mi28n_vvsc",                                                   // MI-28
+    "rhsgref_BRDM2_ATGM_msv",                                        // BRDM-2 Missiles (Armed)
+    "rhsgref_BRDM2_vdv",                                             // BRDM-2 (Armed)
     "RHS_Ka52_vvsc"                                                     // Ka-52
 ];
 
@@ -124,6 +135,7 @@ opfor_battlegroup_vehicles_low_intensity = [
     "rhs_btr80a_msv",                                                   // BTR-80A
     "rhs_zsu234_aa",                                                    // ZSU-23-4V
     "RHS_Mi24P_AT_vvsc",                                                // Mi-24P (AT)
+    "rhs_t90sm_tv",                                                   // T-90SM
     "RHS_Mi24Vt_vvsc",                                                // Mi-24V (AT)
     "rhs_t15_tv",                                                       // T-14
     "RHS_Mi8mt_Cargo_vvsc"                                              // Mi-8MT (Cargo)
@@ -157,7 +169,9 @@ opfor_air = [
     "rhs_mig29sm_vvsc",                                                 // MIG-29
 	"RHS_T50_vvs_051",                                              // SU-57
     "FIR_F14A_IRIAF",                                       			// Iranian F-14
-    "rhsusf_f22",													//Su-25
+    "rhs_mig29sm_vvs",													//Su-25
 	"RHS_A10",												//To-201 Shikra
+    "RHS_T50_vvs_generic_ext",                                                 // MIG-29
+    "RHS_T50_vvs_052",                                                 // MIG-29
     "FIR_F16C_EMEMY_TYPE_A"                                             // Evil F-16
 ];
