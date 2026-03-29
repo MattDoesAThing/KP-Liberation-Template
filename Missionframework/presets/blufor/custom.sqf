@@ -133,6 +133,8 @@ heavy_vehicles = [
     ["I_APC_tracked_03_cannon_F",300,150,150],                          // FV-720 Mora
     ["RHS_M2A2_BUSKI_WD",300,200,150],                                  // M2A2ODS (Busk I)
     ["BWA3_Puma_Fleck",300,225,150],                                    // IFV Puma
+    ["qav_bmp1_am_p",300,225,150],                                    // QAV BMP1AM
+    ["qav_bmp1_p",300,225,150],                                    // QAV BMP-1P
     ["RHS_M2A3_BUSKIII_wd",300,250,175],                                // M2A3 (Busk III)
     ["B_APC_Tracked_01_AA_F",300,250,175],                              // IFV-6a Cheetah
     ["I_LT_01_AA_F",300,250,175],                                       // AWC 302 Nyx (AA)
@@ -140,7 +142,12 @@ heavy_vehicles = [
     ["I_LT_01_cannon_F",300,250,175],                                   // AWC 302 Nyx (Cannon)
     ["RHS_M6_wd",300,250,175],                                          // M6A2
     ["B_MBT_01_cannon_F",400,300,200],                                  // M2A1 Slammer
-    ["CUP_B_Challenger2_NATO",400,300,200],                             // FV4034 Challenger 2
+    ["qav_abramsx_templar",400,300,200],                                  // Abrams X Templar
+    ["qav_abramsx_tusk",400,300,200],                                  // Abrams X Basilisk
+    ["qav_abramsx",400,300,200],                                      // Abrams X Zues
+    ["qav_challenger2_e",400,300,200],                             // QAV Challenger 2
+    ["qav_challenger2",400,300,200],                             // QAV Challenger 2
+    ["qav_T90A",400,300,200],                             /          // QAV t-90A
     ["I_MBT_03_cannon_F",400,300,200],                                  // MBT-52 Kuma
     ["rhsusf_m1a1aim_tuski_wd",400,350,225],                            // M1A1SA (Tusk I)
     ["B_MBT_01_TUSK_F",500,350,225],                                    // M2A4 Slammer UP
@@ -167,6 +174,7 @@ air_vehicles = [
     ["B_Heli_Attack_01_dynamicLoadout_F",500,400,200],                  // AH-99 Blackfoot
     ["RHS_AH1Z",500,500,200],                                           // AH-1Z (Multi-Role)
     ["RHS_AH64D_wd",750,750,250],                                       // AH-64D (Multi-Role)
+    ["fza_ah64d_b1",750,750,250],                                       // AH-64D (Multi-Role)
     ["BWA3_Tiger_RMK_Universal",750,750,250],                           // UH Tiger RMK (Universal)
     ["B_Heli_Transport_01_F",250,80,150],                               // UH-80 Ghost Hawk
     ["B_Heli_Transport_01_camo_F",250,80,150],                          // UH-80 Ghost Hawk (Camo)
@@ -195,6 +203,7 @@ air_vehicles = [
     ["FIR_F15C",1250,1250,450],                                         // F-15C Eagle
     ["FIR_F15D",1250,1250,450],                                         // F-15D Eagle
     ["FIR_F15E",1250,1500,450],                                         // F-15E Strike Eagle
+    ["FIR_F15EX_OG_114FS",1250,1500,450],                                         // F-15EXdwqd
     ["JS_JC_FA18E",1500,1750,450],                                      // F/A-18 E Super Hornet
     ["JS_JC_FA18F",1500,1750,450],                                      // F/A-18 F Super Hornet
     ["USAF_F22",1800,2000,500],                                         // F-22A Raptor
@@ -206,6 +215,8 @@ air_vehicles = [
     ["B_Plane_Fighter_01_F",1500,1750,450],                             // F/A-181 Black Wasp II
     ["B_Plane_Fighter_01_Stealth_F",1500,1750,450],                     // F/A-181 Black Wasp II (Stealth)
     ["B_T_VTOL_01_armed_F",750,1500,500],                               // V-44 X Blackfish (Armed)
+    ["Peral_MV75_A",350,0,250],                                         // MV-75 (armed)
+    ["Peral_MV75",250,0,150],                                           // MV-75 (Unarmed)
     ["B_T_VTOL_01_infantry_F",750,0,500],                               // V-44 X Blackfish (Infantry)
     ["B_T_VTOL_01_vehicle_F",750,0,500]                                 // V-44 X Blackfish (Vehicle)
 ];
@@ -221,6 +232,9 @@ static_vehicles = [
     ["B_static_AA_F",50,100,0],                                         // Static Titan Launcher (AA)
     ["B_Mortar_01_F",80,150,0],                                         // Mk6 Mortar
     ["RHS_M119_WD",100,200,0],                                          // M119A2
+    ["E22_B_JC_W_Radar_system_01_F",100,200,0],                         // Sentinel Radar
+    ["E22_B_JC_W_AAA_System_01_F",100,200,0],                           // ADX2 Skynex
+    ["E22_B_JC_W_SAM_system_01_F",100,200,0],                           // NASAMS
     ["B_SAM_System_03_F",250,500,0]                                     // MIM-145 Defender
 ];
 
