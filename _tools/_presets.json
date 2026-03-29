@@ -409,7 +409,7 @@
         "map": "Chernarus_2020",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
-            "KP_liberation_preset_blufor": 6,
+            "KP_liberation_preset_blufor": 0,
             "KP_liberation_preset_opfor": 2,
             "KP_liberation_preset_resistance": 0,
             "KP_liberation_preset_civilians": 0,
@@ -423,7 +423,7 @@
         "map": "Kapaulio",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
-            "KP_liberation_preset_blufor": 6,
+            "KP_liberation_preset_blufor": 0,
             "KP_liberation_preset_opfor": 2,
             "KP_liberation_preset_resistance": 0,
             "KP_liberation_preset_civilians": 0,
@@ -437,7 +437,7 @@
         "map": "Gulfcoast",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
-            "KP_liberation_preset_blufor": 4,
+            "KP_liberation_preset_blufor": 0,
             "KP_liberation_preset_opfor": 0,
             "KP_liberation_preset_resistance": 9,
             "KP_liberation_preset_civilians": 1,
@@ -451,7 +451,7 @@
         "map": "Stubbhult",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
-            "KP_liberation_preset_blufor": 4,
+            "KP_liberation_preset_blufor": 0,
             "KP_liberation_preset_opfor": 0,
             "KP_liberation_preset_resistance": 9,
             "KP_liberation_preset_civilians": 1,
@@ -465,7 +465,7 @@
         "map": "ChernarusRedux",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
-            "KP_liberation_preset_blufor": 4,
+            "KP_liberation_preset_blufor": 0,
             "KP_liberation_preset_opfor": 0,
             "KP_liberation_preset_resistance": 9,
             "KP_liberation_preset_civilians": 1,
@@ -479,7 +479,7 @@
         "map": "Laghisola",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
-            "KP_liberation_preset_blufor": 4,
+            "KP_liberation_preset_blufor": 0,
             "KP_liberation_preset_opfor": 0,
             "KP_liberation_preset_resistance": 9,
             "KP_liberation_preset_civilians": 1,
@@ -493,7 +493,7 @@
         "map": "Podagorsk",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
-            "KP_liberation_preset_blufor": 4,
+            "KP_liberation_preset_blufor": 0,
             "KP_liberation_preset_opfor": 0,
             "KP_liberation_preset_resistance": 9,
             "KP_liberation_preset_civilians": 1,
@@ -521,7 +521,7 @@
         "map": "UMBColombia",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
-            "KP_liberation_preset_blufor": 4,
+            "KP_liberation_preset_blufor": 0,
             "KP_liberation_preset_opfor": 0,
             "KP_liberation_preset_resistance": 9,
             "KP_liberation_preset_civilians": 1,
@@ -535,7 +535,7 @@
         "map": "yulakia",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
-            "KP_liberation_preset_blufor": 6,
+            "KP_liberation_preset_blufor": 0,
             "KP_liberation_preset_opfor": 2,
             "KP_liberation_preset_resistance": 0,
             "KP_liberation_preset_civilians": 0,
