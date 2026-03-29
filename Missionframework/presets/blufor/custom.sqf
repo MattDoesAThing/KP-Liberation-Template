@@ -147,7 +147,7 @@ heavy_vehicles = [
     ["qav_abramsx",400,300,200],                                      // Abrams X Zues
     ["qav_challenger2_e",400,300,200],                             // QAV Challenger 2
     ["qav_challenger2",400,300,200],                             // QAV Challenger 2
-    ["qav_T90A",400,300,200],                             /          // QAV t-90A
+    ["qav_T90A",400,300,200],                                       // QAV t-90A
     ["I_MBT_03_cannon_F",400,300,200],                                  // MBT-52 Kuma
     ["rhsusf_m1a1aim_tuski_wd",400,350,225],                            // M1A1SA (Tusk I)
     ["B_MBT_01_TUSK_F",500,350,225],                                    // M2A4 Slammer UP
