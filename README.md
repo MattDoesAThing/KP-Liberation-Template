@@ -89,6 +89,11 @@ You can play every map without any mods (only the maps themself) if you set the 
     * [CUP Terrains - Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
     * [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
     * [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
+* Chernarus 2020
+    * [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
+    * [CUP Terrains - Maps 2.0](https://steamcommunity.com/sharedfiles/filedetails/?id=1981964169)
+    * [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
+    * [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
 * Livonia
     * Contact DLC
 * Lythium
